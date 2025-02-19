@@ -38,3 +38,30 @@ The advantage of QAOA stems from the principles of quantum mechanics, particular
 
 ## Conclusion
 This implementation serves as a basic introduction to using QAOA for solving the Max-Cut problem. Further optimizations and enhancements can be made to improve performance and accuracy.
+
+## Citation
+If you use this code or build upon it in your research or applications, please cite it as follows:
+
+### BibTeX
+```bibtex
+@software{qaoa_maxcut_implementation,
+    author = {Debasis},
+    title = {QAOA Implementation for Max-Cut Problem},
+    year = {2025},
+    url = {https://github.com/debasis/QAOA},
+    note = {Quantum Approximate Optimization Algorithm implementation for solving the Max-Cut problem}
+}
+```
+
+### APA
+```
+Debasis. (2025). QAOA Implementation for Max-Cut Problem [Computer software].
+```
+
+### Plain Text
+```
+Debasis (2025). QAOA Implementation for Max-Cut Problem. 
+Available at: https://github.com/debasis/QAOA
+```
+
+Please note that proper attribution helps maintain the academic integrity of the field and allows others to find and build upon this work. If you make significant modifications or improvements to this code, consider also citing the original work along with your contributions.
