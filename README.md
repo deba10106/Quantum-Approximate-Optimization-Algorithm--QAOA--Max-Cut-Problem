@@ -36,6 +36,19 @@ The Quantum Approximate Optimization Algorithm (QAOA) can outperform classical a
 The advantage of QAOA stems from the principles of quantum mechanics, particularly superposition and entanglement. These principles enable quantum computers to represent and process a vast number of possibilities simultaneously, providing a computational edge in solving complex optimization problems.
 
 
+## Results
+
+![Max-Cut Problem Plot](test_plot.png)
+
+### Explanation
+The plot above illustrates the distribution of measurement outcomes from the quantum circuit used in the QAOA implementation for the Max-Cut problem. Each bar in the histogram represents the frequency of a particular state, indicating how often each potential solution was measured during the execution of the algorithm.
+
+### Significance
+The significance of this plot lies in its ability to provide insights into the effectiveness of the QAOA algorithm. A higher frequency for a particular state suggests that the corresponding partitioning of the graph's vertices is more favorable, thus indicating a better solution to the Max-Cut problem.
+
+### Interpretation
+By analyzing the plot, researchers can ascertain which solutions are more likely to yield optimal results. This information can guide further experimentation and refinement of the algorithm, as well as provide a basis for comparison with classical methods in solving combinatorial optimization problems.
+
 ## Conclusion
 This implementation serves as a basic introduction to using QAOA for solving the Max-Cut problem. Further optimizations and enhancements can be made to improve performance and accuracy.
 
